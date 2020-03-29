@@ -719,6 +719,17 @@ var defaultOptions = {
         clientId: 'clientId',
         redirectUri: 'redirectUri'
       }
+    },
+    zoom: {
+      name: 'zoom',
+      url: '/auth/zoom',
+      authorizationEndpoint: 'https://zoom.us/oauth/authorize',
+      redirectUri: getRedirectUri(),
+      scope: ['user:read'],
+      oauthType: '2.0',
+      scopeDelimiter: ' ',
+      display: 'popup',
+      popupOptions: { width: 1020, height: 618 }      
     }
   }
 };

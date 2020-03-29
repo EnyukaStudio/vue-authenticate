@@ -74,7 +74,8 @@
     "twitter",
     "oauth",
     "oauth 1.0",
-    "oauth 2.0"
+    "oauth 2.0",
+    "zoom"
   ],
   "dependencies": {
     "acorn": "^6.1.1",
